@@ -1,0 +1,24 @@
+{
+    "name": "icode4food/miscassets-bundle",
+    "type": "symfony-bundle",
+    "description": "Misc assets Bundle for Symfony2",
+    "keywords": ["javascript", "icode4food", "assets"],
+    "homepage": "https://github.com/Icode4food",
+    "license": "",
+    "authors": [
+        {
+            "homepage": "https://github.com/Icode4food"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": "2.*"
+    },
+    "recommend": {
+        "manymules/jquery-bundle": "*"
+    },
+    "autoload": {
+        "psr-0": { "Icode4food\\MiscAssetsBundle": "" }
+    },
+    "target-dir": "Icode4food/MiscAssetsBundle"
+}
